@@ -4,17 +4,14 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-// Champion 인터페이스
 interface Champion {
   id: string;
   name: string;
 }
 
-// 챔피언 데이터 인터페이스
 interface ChampionData {
   id: string;
   name: string;
-  // 필요한 다른 속성 추가
 }
 
 export default function ChampionRotationPage() {
@@ -40,7 +37,6 @@ export default function ChampionRotationPage() {
           throw new Error("챔피언 데이터를 가져오는 데 실패했습니다.");
         const championsData = await championsResponse.json();
 
-        // championsData.data를 ChampionData 타입으로 변환
         const championsList = Object.values(
           championsData.data
         ) as ChampionData[];
