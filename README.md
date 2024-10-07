@@ -12,10 +12,10 @@
 리그 오브 레전드는 전 세계에서 인기 있는 멀티플레이어 온라인 배틀 아레나(MOBA) 게임입니다. 이 프로젝트는 게임 내 아이템의 정보를 사용자에게 제공하기 위해 개발되었습니다. 사용자는 각 아이템의 이름과 이미지를 쉽게 탐색할 수 있습니다.
 
 ## ⚙️ 기능
-챔피언 목록: 모든 챔피언의 이름과 이미지 표시
-아이템 목록: 게임 내 아이템 정보 표시
-로테이션 정보: 현재 무료로 사용할 수 있는 챔피언 목록 표시
-상세 페이지: 챔피언에 대한 상세 정보 페이지 제공
+챔피언 목록: 모든 챔피언의 이름과 이미지 표시  
+아이템 목록: 게임 내 아이템 정보 표시  
+로테이션 정보: 현재 무료로 사용할 수 있는 챔피언 목록 표시  
+상세 페이지: 챔피언에 대한 상세 정보 페이지 제공  
 
 ## 🛠️ 기술 스택
 
@@ -25,28 +25,4 @@
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=ffffff)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=ffffff)
 
-API:
-
-Riot Games API를 사용하여 아이템 데이터를 가져옵니다.
-📦 설치 방법
-레포지토리 클론:
-
-bash
-
-
-git clone https://github.com/yourusername/league-of-legends-items.git
-cd league-of-legends-items
-의존성 설치:
-
-bash
-
-
-npm install
-개발 서버 실행:
-
-bash
-
-
-npm run dev
-브라우저에서 열기:
-웹 브라우저에서 http://localhost:3000으로 접속합니다.
+API: Riot Games API를 사용하여 아이템 데이터를 가져옵니다.
