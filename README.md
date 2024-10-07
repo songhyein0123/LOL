@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Riot App
+이 프로젝트는 리그 오브 레전드와 관련된 정보를 제공하는 웹 애플리케이션입니다. 사용자는 챔피언 목록, 아이템 목록, 현재 로테이션 챔피언 정보를 확인할 수 있습니다.
 
-## Getting Started
+## 📋 목차
+프로젝트 개요
+기능
+기술 스택
+설치 방법
+사용 방법
 
-First, run the development server:
+## 📖 프로젝트 개요
+리그 오브 레전드는 전 세계에서 인기 있는 멀티플레이어 온라인 배틀 아레나(MOBA) 게임입니다. 이 프로젝트는 게임 내 아이템의 정보를 사용자에게 제공하기 위해 개발되었습니다. 사용자는 각 아이템의 이름과 이미지를 쉽게 탐색할 수 있습니다.
 
-```bash
+## ⚙️ 기능
+챔피언 목록: 모든 챔피언의 이름과 이미지 표시
+아이템 목록: 게임 내 아이템 정보 표시
+로테이션 정보: 현재 무료로 사용할 수 있는 챔피언 목록 표시
+상세 페이지: 챔피언에 대한 상세 정보 페이지 제공
+
+## 🛠️ 기술 스택
+
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=ffffff)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=ffffff)
+![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=ffffff)
+![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=ffffff)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=ffffff)
+
+API:
+
+Riot Games API를 사용하여 아이템 데이터를 가져옵니다.
+📦 설치 방법
+레포지토리 클론:
+
+bash
+
+
+git clone https://github.com/yourusername/league-of-legends-items.git
+cd league-of-legends-items
+의존성 설치:
+
+bash
+
+
+npm install
+개발 서버 실행:
+
+bash
+
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+브라우저에서 열기:
+웹 브라우저에서 http://localhost:3000으로 접속합니다.
